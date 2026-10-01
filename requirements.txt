@@ -1,0 +1,7 @@
+brian2==2.10.1
+neuprint-python==0.6.3
+pandas==3.0.5
+numpy==2.5.3
+pillow==12.3.0
+scipy==1.18.1
+matplotlib==3.11.2
