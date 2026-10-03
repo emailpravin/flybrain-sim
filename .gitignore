@@ -4,3 +4,37 @@ __pycache__/
 *.pyc
 .DS_Store
 research_log.md
+
+# Unpublished/excluded experiment data (not behind any published blog number)
+flight_mi4_mi9.csv
+flight_t4.csv
+flight_vs_hs.csv
+lc16_ids.csv
+lovc_courtship_state_ids.csv
+pc1_courtship_ids.csv
+pvlp010_cl038_neurons_raw.csv
+random_control2_ids.csv
+seq_rotating.npy
+seq_rotating_bodyids.csv
+seq_rotating_withOA.npy
+seq_rotating_withOA_bodyids.csv
+spike_summary_calm_seed*.csv
+spike_summary_excited_seed*.csv
+spike_summary_flight_baseline_seed*.csv
+spike_summary_flight_withOA_seed*.csv
+spike_times_calm_seed*.csv
+spike_times_excited_seed*.csv
+
+# Superseded pre-recalibration connectome build (connectome_flight_escape.csv in core/data/ is the real one)
+experiments/01_escape_circuit/data/connectome_escape.csv
+experiments/01_escape_circuit/data/connectome_escape_neurons.csv
+experiments/01_escape_circuit/data/escape_edges_raw.csv
+experiments/01_escape_circuit/data/escape_neuron_nt.csv
+experiments/01_escape_circuit/data/escape_circuit_ids.csv
+experiments/01_escape_circuit/data/escape_output_neurons.csv
+experiments/01_escape_circuit/data/escape_relays.csv
+
+# Stray pre-recalibration/cut blog images
+blog_images/eyeview_44deg_FIRES.png
+blog_images/flightstate_results.png
+blog_images/flightstate_stages_and_results.png
