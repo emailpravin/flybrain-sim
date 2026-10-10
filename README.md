@@ -2,7 +2,7 @@
 
 A spiking simulation of parts of a real fruit fly's nervous system, built directly from the male-cns:v1.0 connectome (Google Research / Janelia, 2026) plus real electrical properties pulled from published electrophysiology (Shiu et al. 2024 and others). The goal: take a real wiring diagram of a real animal's brain, add real electrical properties measured in separate papers, and see whether the resulting circuit behaves like the real thing, then use it to generate real, falsifiable predictions about circuitry that hasn't been tested yet.
 
-Two experiments so far, each written up as its own blog post.
+Three experiments so far, each written up as its own blog post.
 
 ## Experiments
 
@@ -17,6 +17,12 @@ Blog post: [Making a simulated fly](https://pravinposts.substack.com/p/making-a-
 Tests whether octopamine, the fly's arousal chemical, speeds up the escape circuit built in experiment 1. Finds a real effect, then isolates which of three real candidate connections actually carries it, cutting each one individually and rerunning the full test.
 
 Blog post: link coming soon
+
+### [03_li28_inhibition](experiments/03_li28_inhibition/) — what happens when something inhibits the escape circuit?
+
+Experiments 1 and 2 only ever boosted the circuit. This one finds a real inhibitory wire instead: Li28, a 13-neuron GABAergic population wired directly onto the looming detector, LC4. Activates it directly (the same way the octopamine neurons were activated in experiment 2) and finds a large, real, falsifiable effect on when the sim-fly reacts.
+
+Blog post: [Hitting the Brakes](https://pravinposts.substack.com/p/hitting-the-brakes?r=9oe50)
 
 ## Setup
 
